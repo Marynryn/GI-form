@@ -31,7 +31,7 @@ export const InputField = styled.input`
   padding: 10px;
   border: 1px solid #ccc;
   &:hover,
-  :focus {
+  &:focus {
     outline-color: rgba(0, 128, 0, 0.8);
   }
 `;
@@ -62,16 +62,20 @@ export const Line = styled.div`
   margin: 40px -30px;
 `;
 export const Button = styled.button`
+    display: flex;
   border-radius: 4px;
   border: 1px solid green;
   padding: 10px 40px;
   background-color: transparent;
   color: #ccc;
   font-size: 20px;
-  margin-left: 20px;
+  margin: 0 auto;
   &:hover {
     color: green;
   }
+    @media (min-width: 768px) {
+        margin-left: 20px;
+    }
 `;
 export const FormBox = styled.div`
   padding: 40px 30px;
