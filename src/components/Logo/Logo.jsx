@@ -1,10 +1,11 @@
 import logo from "../../img/logo.webp"
+import {Box, Image} from "./LogoStyles";
 
  const Logo =()=>{
     return(
-        <div>
-            <img src={logo} alt="logo" width={300} height={300} />
-        </div>
+        <Box >
+            <Image src={logo} alt="logo" />
+        </Box>
     )
  };
 export default Logo;

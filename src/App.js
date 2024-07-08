@@ -6,6 +6,10 @@ import { Toaster } from "react-hot-toast";
 const Container = styled.div`
   padding: 30px 40px;
   width: calc(100% - 80px);
+    @media (min-width: 1140px) {
+        width: 1000px;
+        margin: 0 auto;
+    }
 `;
 function App() {
   return (
