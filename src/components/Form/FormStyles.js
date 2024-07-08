@@ -6,13 +6,12 @@ text-align: center;
 font-size: 36px;
 margin-top: 0`;
 export const Box = styled.div`
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
+    width:100%;
     @media (min-width: 768px) {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
  
-  grid-gap: 24px;}
+  gap: 24px;}
 `;
 export const Subtitle = styled.h2`
   text-align: left;
@@ -37,7 +36,7 @@ export const InputField = styled.input`
   }
 `;
 export const InputContainer = styled.div`
- 
+ width: 100%;
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
