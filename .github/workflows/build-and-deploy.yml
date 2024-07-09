@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # замените на вашу основную ветку, если она отличается
+      - main 
 
 jobs:
   build-and-deploy:
