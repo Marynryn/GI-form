@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gi-form/static/css/main.40c23e2e.css",
-    "main.js": "/gi-form/static/js/main.c40536b3.js",
+    "main.js": "/gi-form/static/js/main.aa518705.js",
     "static/media/logo.webp": "/gi-form/static/media/logo.154ad116cbef472fd1ed.webp",
     "index.html": "/gi-form/index.html",
     "main.40c23e2e.css.map": "/gi-form/static/css/main.40c23e2e.css.map",
-    "main.c40536b3.js.map": "/gi-form/static/js/main.c40536b3.js.map"
+    "main.aa518705.js.map": "/gi-form/static/js/main.aa518705.js.map"
   },
   "entrypoints": [
     "static/css/main.40c23e2e.css",
-    "static/js/main.c40536b3.js"
+    "static/js/main.aa518705.js"
   ]
 }
