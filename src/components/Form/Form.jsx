@@ -52,10 +52,10 @@ const ContactForm = () => {
             >
                 {({ isSubmitting }) => (
                     <Form>
-                        <div>
+
                             <Subtitle>Full Name <Star>*</Star></Subtitle>
                             <Box>
-                                <InputContainer>
+                                <InputContainer >
                                     <Field
                                         as={InputField}
                                         type="text"
@@ -80,7 +80,7 @@ const ContactForm = () => {
                                     <Label htmlFor="last-name">Last Name</Label>
                                 </InputContainer>
                             </Box>
-                        </div>
+
                         <div>
                             <Subtitle>Address <Star>*</Star></Subtitle>
                             <InputContainer>
@@ -133,7 +133,7 @@ const ContactForm = () => {
                             <InputContainer>
                                 <Field
                                     as={InputField}
-                                    type="number"
+                                    type="text"
                                     id="zip-code"
                                     name="zipCode"
                                 />

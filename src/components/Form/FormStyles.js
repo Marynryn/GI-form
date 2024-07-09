@@ -7,11 +7,13 @@ font-size: 36px;
 margin-top: 0`;
 export const Box = styled.div`
     display: block;
-    width:100%;
+
     @media (min-width: 768px) {
   display: flex;
- 
-  gap: 24px;}
+
+    gap:24px; 
+    
+    }
 `;
 export const Subtitle = styled.h2`
   text-align: left;
@@ -21,11 +23,11 @@ export const Star = styled.span`
   color: red;
 `;
 export const Label = styled.label`
-
+opacity: 0.6;
   display: block;
 `;
 export const InputField = styled.input`
-  box-sizing: border-box;
+ width: calc(100% - 20px);
   font-size: 20px;
   border-radius: 4px;
   padding: 10px;
@@ -36,7 +38,7 @@ export const InputField = styled.input`
   }
 `;
 export const InputContainer = styled.div`
- width: 100%;
+   width: 100%;
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
@@ -81,7 +83,7 @@ export const FormBox = styled.div`
   padding: 40px 30px;
     border-radius: 50px;
     background-color: #f1f1f1;
-   
+  
     
     @media (min-width: 768px) {
         padding: 40px 80px;
